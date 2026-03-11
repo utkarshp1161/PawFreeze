@@ -4,8 +4,8 @@ config.py — All tunables for PawFreeze. Edit here, nowhere else.
 
 # ── VLM / Ollama ──────────────────────────────────────────────────────────────
 # VLM_MODEL      = "llava:latest"                    # fast, no thinking overhead
-VLM_MODEL          = "qwen3-vl:8b"#"llava"#"moondream"   # or "llava-phi3", "llava"
-VLM_TIMEOUT = 60  # large models need time on cold start
+VLM_MODEL          = "qwen3.5:0.8b"#"llava"#"moondream"   # or "llava-phi3", "llava"
+VLM_TIMEOUT = 10  # large models need time on cold start
 OLLAMA_URL     = "http://localhost:11434/api/chat"  # must be /api/chat not /api/generate
 VLM_INTERVAL   = 1.0                               # seconds between scans
 FRAME_WIDTH    = 336                               # resize width before sending

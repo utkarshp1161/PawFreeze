@@ -25,7 +25,7 @@ Three modes — switch with **1/2/3** in the window:
 
 **1. Install Ollama and pull a model**
 ```bash
-ollama pull qwen3-vl:8b      # recommended 
+ollama pull qwen3.5:0.8b      # recommended --> use lighter model for faster response
 ```
 
 **2. Install dependencies**
@@ -53,7 +53,7 @@ uv run pawfreeze
 All tunables are in `PawFreeze/config.py`:
 
 ```python
-VLM_MODEL      = "qwen3-vl:8b"   # swap for "qwen3-vl:8b", "moondream", etc.
+VLM_MODEL      = "qwen3.5:0.8b"   # swap for "qwen3-vl:8b", "moondream", etc.
 VLM_INTERVAL   = 2.0              # seconds between scans
 VLM_TIMEOUT    = 60               # increase for large models on cold start
 CAT_SIGNAL_TTL = 3.0              # seconds a detection stays active
