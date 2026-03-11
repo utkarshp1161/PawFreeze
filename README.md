@@ -2,8 +2,10 @@
 
 Tries to make your pc cat🐱-typing safe.
 
+[▶️ Watch Demo on YouTube](https://www.youtube.com/watch?v=XxeDfOaT0Js)
 
 <img src="assets/cat.jpg" alt="cat" width="450" />
+
 
 ---
 
